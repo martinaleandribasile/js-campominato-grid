@@ -46,11 +46,6 @@ function generateNumberArray(max) {
             i++
         } while (i < array.length)
 
-        // for (let i = 0; i < array.length; i++) {
-        //     if (number === array[i]) {
-        //         numbernew = false;
-        //     }
-        //  }
         if (numbernew) {
             array.push(number)
         }
