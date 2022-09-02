@@ -1,0 +1,14 @@
+.square {
+    width: calc(100% / 10);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+
+
+.widthbtn {
+    width: 100px !important;
+}
