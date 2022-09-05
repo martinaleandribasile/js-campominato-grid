@@ -36,8 +36,8 @@ function generateNumberArray(max) {
     let array = []
     while (array.length < max) {
         let number = randomNumberFunction(1, 100);
+        console.log(number)
         let numbernew = true;
-
         let i = 0
         do {
             if (number === array[i]) {
